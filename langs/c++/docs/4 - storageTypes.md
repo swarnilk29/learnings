@@ -25,7 +25,7 @@
 # Register
 - Scope : Local
 - Default Value : Zero
-- Memory Location : RAM
-- Lifetime : Till the end of program
+- Memory Location : Register in CPU or RAM
+- Lifetime : Till the end of its scope
 
 
