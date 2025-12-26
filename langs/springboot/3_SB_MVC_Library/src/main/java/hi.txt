@@ -1,0 +1,10 @@
+Problem Statement 1: Spring Boot MVC Application
+Develop a Spring Boot MVC application for managing Library Book Management.
+
+The application should:
+Provide a form to add book details (Book ID, Book Name, Author, Price).
+Store the data in a database using any one of the following: JDBC / Hibernate / JPA.
+Display the list of all books.
+Provide a feature to search book details by Book ID.
+Use Controller, Service (optional), DAO/Repository, and Thymeleaf/JSP views.
+Follow proper MVC architecture.
