@@ -51,4 +51,10 @@ public class BookController {
         model.addAttribute("book", book);
         return "searchResult";
     }
+
+	@GetMapping("/total")
+public String total(Model model) {
+    model.addAttribute("total", service.getTotalPrice());
+    return "total";
+}
 }
