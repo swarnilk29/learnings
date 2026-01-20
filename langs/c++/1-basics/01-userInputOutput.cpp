@@ -37,3 +37,6 @@ int main () {
 // | %c      | character                   |
 // | %ld     | long int                    |
 // | %.2f    | float with 2 decimal places |
+
+
+// g++ -o code 01-userInput.cpp && code.exe
