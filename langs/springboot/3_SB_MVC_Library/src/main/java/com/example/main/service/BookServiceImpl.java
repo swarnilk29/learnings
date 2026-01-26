@@ -28,5 +28,10 @@ public class BookServiceImpl implements BookService{
 	public Book getBookById(int bookId) {
 		return repo.findById(bookId).orElse(null);
 	}
+
+	 @Override
+    public Double getTotalMarks() {
+        return repo.getTotalPrice(); // SUM from DB
+    }
 	
 }

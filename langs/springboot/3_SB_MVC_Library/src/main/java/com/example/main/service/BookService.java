@@ -7,4 +7,5 @@ public interface BookService {
 	void saveBook(Book book);
 	List<Book> getAllBooks();
 	Book getBookById(int bookId);
+	Double getTotalMarks();
 }
